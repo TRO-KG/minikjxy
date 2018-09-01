@@ -9,12 +9,13 @@
         <icon class="iconfont icon-location"></icon>
         <text> 河南省周口市鹿邑县贾滩镇贾滩街十字路口南150米(导航)</text>
       </view>
-        <view class='time iconfont icon-shijian'>
-        <icon></icon> 7:00 ~ 18:00
+      <view class='time'>
+        <icon class='iconfont icon-shijian'></icon>
+        <text> 7:00 ~ 18:00</text>
       </view>
       <view class='tel'>
         <icon class='iconfont icon-dianhua'></icon>
-        <text>电话:15838690657 (点击拨号)</text>
+        <text> 电话:15838690657 (点击拨号)</text>
       </view>
     </view>
   </view>
@@ -64,7 +65,10 @@
           <image src='/images/shangpin.png'></image>
           <view class='desc'><text>白芝麻油</text></view>
         </view>
-        <view class='price'><text>￥22</text><text class='buy'>加入购物车</text></view>
+        <view class='price'>
+          <text>￥22</text>
+          <text class='buy'>加入购物车</text>
+        </view>
       </view>
       
 

@@ -1,5 +1,5 @@
 page{
-  height: 100%;
+  min-height: 100%;
   font-size: 28rpx;
   background-color: #eae9e7;
 }
@@ -24,4 +24,4 @@ page{
 .icon-tubiaozhizuomoban:before { content: "\e61d";color: #00f; }
 .icon-youhui:before { content: "\e628"; color: rgb(0, 255, 0);}
 .icon-rexiao:before { content: "\e632"; color: rgb(255, 59, 59);}
-.icon-zizhiguanli-copy:before { content: "\e78e"; color: #ff0;}
+.icon-zizhiguanli-copy:before { content: "\e78e"; color: rgb(255, 0, 149);}
