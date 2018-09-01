@@ -1,0 +1,42 @@
+{
+  "pages" : [
+    "pages/index/index",
+    "pages/shoppingcar/shoppingcar",
+    "pages/me/me",
+    "pages/kefu/kefu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e48700",
+    "navigationBarTitleText": "鹿邑县孔家香油",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home-1.png",
+        "selectedIconPath": "/images/home.png"
+      },
+      {
+        "pagePath": "pages/shoppingcar/shoppingcar",
+        "text": "购物车",
+        "iconPath": "/images/shoppingcar-1.png",
+        "selectedIconPath": "/images/shoppingcar.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/me-1.png",
+        "selectedIconPath": "/images/me.png"
+      },
+      {
+        "pagePath": "pages/kefu/kefu",
+        "text": "客服",
+        "iconPath": "/images/kefu-1.png",
+        "selectedIconPath": "/images/kefu.png"
+      }
+    ]
+  }
+}

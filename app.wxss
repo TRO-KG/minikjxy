@@ -1,0 +1,27 @@
+page{
+  height: 100%;
+  font-size: 28rpx;
+  background-color: #eae9e7;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 816111 */
+  src: url('//at.alicdn.com/t/font_816111_7hid0fuo5h.eot');
+  src: url('//at.alicdn.com/t/font_816111_7hid0fuo5h.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_816111_7hid0fuo5h.woff') format('woff'),
+  url('//at.alicdn.com/t/font_816111_7hid0fuo5h.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_816111_7hid0fuo5h.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-location:before { content: "\e78d"; }
+.icon-dianhua:before { content: "\e608"; }
+.icon-shijian:before { content: "\e62d"; }
+.icon-tubiaozhizuomoban:before { content: "\e61d";color: #00f; }
+.icon-youhui:before { content: "\e628"; color: rgb(0, 255, 0);}
+.icon-rexiao:before { content: "\e632"; color: rgb(255, 59, 59);}
+.icon-zizhiguanli-copy:before { content: "\e78e"; color: #ff0;}
