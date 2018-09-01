@@ -1,0 +1,68 @@
+
+<view class='container'>
+  <view class='heaher'>
+    <view class='banner'>
+      <image src='/images/5.png'></image>
+    </view>
+    <view class='address'>
+      <view class='location'>
+        <icon class="iconfont icon-location"></icon><text> 河南省周口市鹿邑县贾滩镇贾滩街十字路口南150米(导航)</text>
+      </view>
+      <view class='time iconfont icon-shijian'><icon></icon> 7:00 ~ 18:00</view>
+      <view class='tel'><icon class='iconfont icon-dianhua'></icon> 电话:15838690657 (点击拨号)</view>
+    </view>
+  </view>
+
+  <view class='actnav'>
+    <view class='actnav-box'>
+      <view><icon class='iconfont icon-rexiao'></icon></view>
+      <text>热销</text>
+    </view>
+    <view class='actnav-box'>
+      <view><icon class='iconfont icon-youhui'></icon></view>
+      <text>优惠</text>
+    </view>
+    <view class='actnav-box'>
+      <view><icon class='iconfont icon-zizhiguanli-copy'></icon></view>
+      <text>资质</text>
+    </view>
+    <view class='actnav-box'>
+      <view><icon class='iconfont icon-tubiaozhizuomoban'></icon></view>
+      <text>小知识</text>
+    </view>
+  </view>
+
+  <view class='product'>
+    <view class='class-title'>
+      <view class='class-fu'></view>
+      <text>产品</text>
+    </view>
+    <view class='pro-list'>
+
+       <view class='pro-box'>
+        <view class='pro-image'>
+          <image src='/images/shangpin.png'></image>
+          <view class='desc'><text>白芝麻油</text></view>
+        </view>
+        <view class='price'><text>￥22</text><text class='buy'>加入购物车</text></view>
+      </view>
+       <view class='pro-box'>
+        <view class='pro-image'>
+          <image src='/images/shangpin.png'></image>
+          <view class='desc'><text>白芝麻油</text></view>
+        </view>
+        <view class='price'><text>￥22</text><text class='buy'>加入购物车</text></view>
+      </view>
+      <view class='pro-box'>
+        <view class='pro-image'>
+          <image src='/images/shangpin.png'></image>
+          <view class='desc'><text>白芝麻油</text></view>
+        </view>
+        <view class='price'><text>￥22</text><text class='buy'>加入购物车</text></view>
+      </view>
+      
+
+
+    </view>
+  </view>
+</view>

@@ -1,0 +1,34 @@
+<view class='container'>
+  <view class='editbox'>
+    <view class='selectall'>
+      <view class='selectbtn'></view>
+      <view>全选</view>
+    </view>
+    <view class='edit'>编辑</view>
+  </view>
+
+  <view class='goodslist'>
+    <view class='goodsbox'>
+      <view class='selectbtn goodsselect'></view>
+      <view class='goodsimg'>
+        <image src='/images/shangpin.png'></image>
+      </view>
+      <view class='goodsdesc'>
+        <view><text>孔家纯芝麻香油500g</text></view>
+        <view><text>￥22</text></view>
+        <view>X 1</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='totalprice'>
+    <view class='totalbox'>
+      <view class='total'>总计: <text>￥22</text></view>
+      <view class='buy'>结 算</view>
+    </view>
+  </view>
+
+
+
+
+</view>
