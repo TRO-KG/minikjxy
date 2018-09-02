@@ -46,7 +46,7 @@
   vertical-align: middle;
 }
 .class-fu{
-  background-color: #e48700;
+  background-color: #ffc310;
   width: 10rpx;
 }
 .class-title text{
