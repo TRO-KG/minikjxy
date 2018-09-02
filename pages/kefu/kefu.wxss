@@ -1,1 +1,39 @@
-/* pages/kefu/kefu.wxss */
+.container{
+  background-color: #fff;
+  overflow: hidden;
+}
+.warnning view:nth-last-of-type(1){
+  text-align: right;
+}
+.warnning{
+  background-color: #ffc310;
+  border-radius: 20rpx;
+  padding: 10rpx;
+  letter-spacing: 4rpx;
+  margin: 10rpx;
+  color: #fff;
+}
+.kefubox{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 80rpx;
+}
+.kefubox icon{
+  box-sizing: border-box;
+  padding-top: 40rpx;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  background-color: rgb(240, 240, 248);
+  font-size: 70rpx;
+  display: block;
+}
+.kefubox text{
+  display: block;
+  margin-top: 20rpx;
+}
+.commun{
+  margin-top: 30rpx;
+  text-align: center;
+}
