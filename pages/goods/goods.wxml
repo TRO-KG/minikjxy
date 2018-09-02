@@ -14,4 +14,24 @@
     </view>
   </view>
 
+  <view class='goodsbox'>
+    <view class='goodsimgbox'>
+      <image src='/images/shangpin.png'></image>
+    </view>
+    <view class='descbox'>
+      <view class='desc'>孔家纯芝麻香油500g</view>
+      <view class='sharebox'>
+        <icon class='shoucang iconfont icon-shoucang'></icon>
+        <icon class='share iconfont icon-fenxiang'></icon>
+      </view>
+    </view>
+    <view class='pricebox'>
+      <text class='pricenow'>￥22.00</text>
+      <text class='priceold'>￥25.00</text>
+    </view>
+  </view>
+  <view class='addressbox'>
+    配送至
+  </view>
+
 </view>

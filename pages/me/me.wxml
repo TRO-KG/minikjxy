@@ -36,7 +36,7 @@
       <text>></text>
     </view>
     <view>
-      <view><icon class='iconfont icon-shoucang'></icon></view>
+      <view><icon class='shoucang iconfont icon-shoucang'></icon></view>
       <text>我的收藏</text>
       <text>></text>
     </view>

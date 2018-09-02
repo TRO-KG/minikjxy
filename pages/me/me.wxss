@@ -55,6 +55,9 @@
 .otherbox icon{
   font-size: 44rpx;
 }
+.shoucang{
+  color: #ff0;
+}
 .otherbox view text,.otherbox view view{
   display: inline-block;
   vertical-align: middle;
