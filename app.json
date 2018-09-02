@@ -4,7 +4,8 @@
     "pages/shoppingcar/shoppingcar",
     "pages/me/me",
     "pages/kefu/kefu",
-    "pages/case/case"
+    "pages/case/case",
+    "pages/goods/goods"
   ],
   "window": {
     "backgroundTextStyle": "light",

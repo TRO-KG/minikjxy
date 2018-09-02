@@ -1,0 +1,17 @@
+<view class='container'>
+  <view class='headerbox'>
+    <view>
+      <icon class='iconfont icon-baobeiliebiao'></icon>
+      <text>宝贝</text>
+    </view>
+    <view>
+      <icon class='iconfont icon-pingjia'></icon>
+      <text>评价</text>
+    </view>
+    <view>
+      <icon class='iconfont icon-xiangqing'></icon>
+      <text>详情</text>
+    </view>
+  </view>
+
+</view>

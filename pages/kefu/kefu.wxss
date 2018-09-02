@@ -1,6 +1,7 @@
 .container{
   background-color: #fff;
   overflow: hidden;
+  height:100%; 
 }
 .warnning view:nth-last-of-type(1){
   text-align: right;
@@ -17,7 +18,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-top: 80rpx;
+  margin-top: 40rpx;
 }
 .kefubox icon{
   box-sizing: border-box;
@@ -36,4 +37,7 @@
 .commun{
   margin-top: 30rpx;
   text-align: center;
+}
+.belief{
+  margin-top: 100rpx;
 }

@@ -45,7 +45,7 @@
     </view>
     <view class='pro-list'>
 
-       <view class='pro-box'>
+       <view class='pro-box' bindtap='toDetails'>
         <view class='pro-image'>
           <image src='/images/shangpin.png'></image>
           <view class='desc'><text>白芝麻油</text></view>

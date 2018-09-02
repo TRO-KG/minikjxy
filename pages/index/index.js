@@ -17,5 +17,10 @@ Page({
     wx.navigateTo({
       url: '/pages/case/case'
     })
+  },
+  toDetails: function(){
+    wx.navigateTo({
+      url: '/pages/goods/goods'
+    })
   }
 })

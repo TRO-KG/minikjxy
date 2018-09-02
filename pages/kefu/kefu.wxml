@@ -1,9 +1,9 @@
 <view class='container'>
-  <view class='warnning'>
-    <text>“识于口碑，陷于口味，忠于品质”是对大家信任的回馈，更是我们的坚持。</text>
-    <view>—— 鹿邑县孔家香油</view>
+  <view class='commun'>
+    <view class='warnning'>
+      <text>沟通是一门艺术，解你所需，促我前进。</text>
+    </view>
   </view>
-  
   <view class='kefubox'>
     <view>
       <icon class='iconfont icon-liuyan'></icon>
@@ -18,8 +18,8 @@
       <text>拨打电话</text>
     </view>
   </view>
-
-  <view class='commun'>
-    <view class='warnning'><text>沟通是一门艺术，解你所需，促我前进。</text></view>
+  <view class='warnning belief'>
+    <text>“识于口碑，陷于口味，忠于品质”是对大家信任的回馈，更是我们的坚持。</text>
+    <view>—— 鹿邑县孔家香油</view>
   </view>
 </view>
