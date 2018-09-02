@@ -1,1 +1,70 @@
-/* pages/me/me.wxss */
+.herder{
+  height: 400rpx;
+  background-color: #fff;
+}
+.userimg,.ueserinfo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 100rpx;
+}
+.userimg{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 60rpx;
+}
+.userimg image{
+  width: 100%;
+  height: 100%;
+}
+.ueserinfo{
+  margin-left: 50rpx;
+}
+.ueserinfo view:nth-child(1){
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.ueserinfo view:nth-child(2){
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.orderbox{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 6rpx;
+  padding: 6rpx 0;
+}
+.orderbox icon{
+  font-size: 50rpx;
+  color: #000;
+  margin-bottom: 6rpx;
+}
+.otherbox {
+  font-size: 32rpx;
+  background-color: #fff;
+  margin-top: 6rpx;
+  overflow: hidden;
+}
+.otherbox>view{
+  padding: 20rpx 10rpx;
+  border-bottom: 1rpx solid #eae9e7;
+}
+.otherbox icon{
+  font-size: 44rpx;
+}
+.otherbox view text,.otherbox view view{
+  display: inline-block;
+  vertical-align: middle;
+}
+.otherbox view text:nth-of-type(1){
+  margin-left: 20rpx;
+}
+.otherbox view text:nth-of-type(2){
+  float: right;
+  font-size: 36rpx;
+  color: rgb(167, 167, 167);
+  margin-right: 20rpx;
+}
