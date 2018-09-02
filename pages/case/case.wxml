@@ -1,0 +1,22 @@
+<view class='container'>
+  <view class='header'>
+      <view class='logobox'>
+        <view class='logoimg'><image src='/images/uesrimg.png'></image></view>
+        <view class='logo'>鹿邑县孔家香油</view>
+      </view>
+      <view class='msg'>我们不止卖香油，我们更关心您的健康。</view>
+  </view>
+
+  <view class='caselistbox'>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+    <view>真假香油的鉴别方法</view>
+  </view>
+</view>

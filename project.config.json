@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -50,7 +50,13 @@
 				{
 					"id": -1,
 					"name": "kefu",
-					"pathName": "pages/kefu/kefu"
+					"pathName": "pages/kefu/kefu",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "case",
+					"pathName": "pages/case/case"
 				}
 			]
 		}

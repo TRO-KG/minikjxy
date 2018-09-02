@@ -1,11 +1,10 @@
-
 <view class='container'>
   <view class='heaher'>
     <view class='banner'>
       <image src='/images/5.png'></image>
     </view>
     <view class='address'>
-      <view class='location'>
+      <view class='location' bindtap='tokjxy'>
         <icon class="iconfont icon-location"></icon>
         <text> 河南省周口市鹿邑县贾滩镇贾滩街十字路口南150米(导航)</text>
       </view>
@@ -13,7 +12,7 @@
         <icon class='iconfont icon-shijian'></icon>
         <text> 7:00 ~ 18:00</text>
       </view>
-      <view class='tel'>
+      <view class='tel' bindtap='callkjxy'>
         <icon class='iconfont icon-dianhua'></icon>
         <text> 电话:15838690657 (点击拨号)</text>
       </view>
@@ -33,7 +32,7 @@
       <view><icon class='iconfont icon-zizhiguanli-copy'></icon></view>
       <text>资质</text>
     </view>
-    <view class='actnav-box'>
+    <view class='actnav-box' bindtap='showCase'>
       <view><icon class='iconfont icon-tubiaozhizuomoban'></icon></view>
       <text>小知识</text>
     </view>

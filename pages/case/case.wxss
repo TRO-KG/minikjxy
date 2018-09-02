@@ -1,0 +1,38 @@
+.header{
+  text-align: center;
+  background-color: yellowgreen;
+}
+.logobox{
+  width: 50%;
+  margin-top: 20rpx;
+  display: inline-block;
+}
+.logoimg{
+  margin: 0 auto 10rpx;
+  background-color:#f00;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.logoimg image{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  font-weight: bold;
+  letter-spacing: 4rpx;
+  font-size: 36rpx;
+}
+.msg{
+  padding: 10rpx 0 30rpx;
+}
+.caselistbox view{
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.692);
+  height: 66rpx;
+  line-height: 66rpx;
+  padding-left: 6rpx;
+  margin-bottom: 2rpx;
+  font-size: 36rpx;
+}
