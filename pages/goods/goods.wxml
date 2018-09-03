@@ -1,5 +1,5 @@
 <view class='container'>
-  <view class='headerbox'>
+  <view class='headerbox black'>
     <view>
       <icon class='iconfont icon-baobeiliebiao'></icon>
       <text>宝贝</text>
@@ -47,7 +47,7 @@
 
   <view class='goodsdetailsbox'>
     <view class='detailsheader'>
-      <view>图文详情</view>
+      <view class='detailstitle'>图文详情</view>
       <view class='fuxian'>
         <view>
           <view class='fuxian1'></view>
@@ -58,6 +58,37 @@
         </view>
       </view>
     </view>
+
+    <view class='goodsdetails black'>
+      <view class='goodsdetailstitle'>孔家纯芝麻香油500g</view>
+      <view class='imglist'>
+        <image src='/images/shangpin.png'></image>
+      </view>
+    </view>
   </view>
 
+  <view class='footernav'>
+    <view class='navleft'>
+      <view class='homebtn'>
+        <icon class='iconfont icon-dianpu'></icon>
+        <view>首页</view>
+      </view>
+      <view class='kefubtn'>
+        <icon class='iconfont icon-kefu'></icon>
+        <view>客服</view>
+      </view>
+      <view class='gouwuchebtn'>
+        <icon class='iconfont icon-gouwuche'></icon>
+        <view>购物车</view>
+      </view>
+    </view>
+    <view class='navright'>
+      <view class='addcar'>
+        加入购物车
+      </view>
+      <view class='buynow'>
+        立即购买
+      </view>
+    </view>
+  </view>
 </view>

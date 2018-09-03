@@ -11,13 +11,17 @@
   height: 80rpx;
   line-height: 80rpx;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.555);
+  background-color: rgba(255, 255, 255, 0.8);
   position: fixed;
   width: 100%;
+  font-size: 30rpx;
 }
 .headerbox text,.headerbox icon{
   display: inline-block;
   vertical-align: middle;
+}
+.headerbox icon{
+  font-size: 34rpx;
 }
 .headerbox view:nth-of-type(1) icon{
   font-size: 45rpx;
@@ -97,20 +101,26 @@
 .goodsdetailsbox{
   margin-top: 10rpx;
   background-color: #fff;
-  padding: 20rpx 30rpx 0;
+  padding-top: 20rpx;
+  margin-bottom: 100rpx;
 }
 .detailsheader{
-  font-size: 36rpx;
   color: #000;
   text-align: center;
+
+}
+.detailstitle{
+  font-size: 40rpx;
+  letter-spacing: 6rpx;
 }
 .fuxian>view{
+  color: #acacac;
   display: inline-block;
   vertical-align: middle;
 }
 .fuxian1,.fuxian2{
   height: 2rpx;
-  background-color: #f00;
+  background-color: #acacac;
   width: 120rpx;
 }
 .fuxian1{
@@ -118,4 +128,52 @@
 }
 .fuxian2{
   margin-left: 30rpx;
+}
+.goodsdetailstitle{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 4rpx;
+}
+.imglist image{
+  width: 100%;
+  height: 800rpx;
+}
+.footernav{
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  background-color: #fff;
+  color: #5c5c5c;
+  width: 100%;
+  text-align: center;
+  border-top: 1rpx solid #eae9e7;
+}
+.navleft{
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  width: 44%;
+}
+.navright{
+  float: right;
+  width: 56%;
+}
+.homebtn icon,.kefubtn icon,.gouwuchebtn icon{
+  font-size: 46rpx;
+}
+.addcar,.buynow{
+  line-height: 100rpx;
+  font-size: 34rpx;
+  color: #fff;
+  display: inline-block;
+  width: 50%;
+}
+.addcar{
+  background-color: #f9992b;
+}
+.buynow{
+  background-color: #fc5028;
 }
