@@ -1,5 +1,9 @@
 .container{
   overflow: hidden;
+  color: #b0b0b0;
+}
+.black{
+  color: #000;
 }
 .headerbox{
   display: flex;
@@ -64,4 +68,54 @@
 .priceold{
   padding-left: 20rpx;
   text-decoration:line-through;
+}
+.addressbox,.evaluate{
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 6rpx;
+  font-size: 30rpx;
+  background-color: #fff;
+  padding-left: 20rpx;
+}
+.location{
+  color: #fa4e4e;
+  margin-left: 10rpx;
+}
+.edit{
+  float: right;
+  padding-right: 36rpx;
+}
+.evaluatenum{
+  width: 30%;
+  float: right;
+  padding-right: 36rpx;
+}
+.evaluatenum text:nth-child(2){
+  float: right;
+  font-size: 36rpx;
+}
+.goodsdetailsbox{
+  margin-top: 10rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx 0;
+}
+.detailsheader{
+  font-size: 36rpx;
+  color: #000;
+  text-align: center;
+}
+.fuxian>view{
+  display: inline-block;
+  vertical-align: middle;
+}
+.fuxian1,.fuxian2{
+  height: 2rpx;
+  background-color: #f00;
+  width: 120rpx;
+}
+.fuxian1{
+  margin-right: 30rpx;
+}
+.fuxian2{
+  margin-left: 30rpx;
 }

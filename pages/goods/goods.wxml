@@ -19,7 +19,7 @@
       <image src='/images/shangpin.png'></image>
     </view>
     <view class='descbox'>
-      <view class='desc'>孔家纯芝麻香油500g</view>
+      <view class='desc black'>孔家纯芝麻香油500g</view>
       <view class='sharebox'>
         <icon class='shoucang iconfont icon-shoucang'></icon>
         <icon class='share iconfont icon-fenxiang'></icon>
@@ -31,7 +31,33 @@
     </view>
   </view>
   <view class='addressbox'>
-    配送至
+    <text>配送至</text>
+    <icon class='iconfont icon-location location'></icon>
+    <text class='address black'>鹿邑县贾滩镇贾滩街十字路口南150米</text>
+    <icon class='iconfont icon-icon-test edit'></icon>
+  </view>
+
+  <view class='evaluate'>
+    <text class='black'>宝贝评价</text>
+    <view class='evaluatenum'>
+      <text>暂无评价</text>
+      <text> ></text>
+    </view>
+  </view>
+
+  <view class='goodsdetailsbox'>
+    <view class='detailsheader'>
+      <view>图文详情</view>
+      <view class='fuxian'>
+        <view>
+          <view class='fuxian1'></view>
+        </view>
+        <view>GRAPHIC DETAILS</view>
+        <view>
+          <view class='fuxian2'></view>
+        </view>
+      </view>
+    </view>
   </view>
 
 </view>
