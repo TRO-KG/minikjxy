@@ -9,6 +9,9 @@
   font-size: 30rpx;
   background-color: #fff;
 }
+.address icon{
+  font-size: 34rpx;
+}
 .location{
   color: #00f;
 }

@@ -21,6 +21,10 @@
 
   <view class='actnav'>
     <view class='actnav-box'>
+      <view><icon class='iconfont icon-CombinedShape'></icon></view>
+      <text>所有产品</text>
+    </view>
+    <view class='actnav-box'>
       <view><icon class='iconfont icon-rexiao'></icon></view>
       <text>热销</text>
     </view>

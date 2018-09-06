@@ -84,6 +84,7 @@
 .location{
   color: #fa4e4e;
   margin-left: 10rpx;
+  font-size: 32rpx;
 }
 .edit{
   float: right;
@@ -149,9 +150,9 @@
   color: #5c5c5c;
   width: 100%;
   text-align: center;
-  border-top: 1rpx solid #eae9e7;
 }
 .navleft{
+  border-top: 1rpx solid #eae9e7;
   float: left;
   display: flex;
   justify-content: space-around;
@@ -163,6 +164,22 @@
 }
 .homebtn icon,.kefubtn icon,.gouwuchebtn icon{
   font-size: 46rpx;
+}
+.gouwuchebtn{
+  position: relative;
+}
+.count{
+  position: absolute;
+  top: 8rpx;
+  right: 8rpx;
+  background-color: #fb4a50;
+  color: #fff;
+  border-radius: 50%;
+  width: 28rpx;
+  height: 28rpx;
+  font-size: 22rpx;
+  text-align: center;
+  line-height: 28rpx;
 }
 .addcar,.buynow{
   line-height: 100rpx;
@@ -176,4 +193,105 @@
 }
 .buynow{
   background-color: #fc5028;
+}
+.checkcountbox{
+  display: none;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+}
+.checkbox{
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  height: 70%;
+  width: 100%;
+  border-top-left-radius: 26rpx;
+  border-top-right-radius: 26rpx;
+}
+.checkimgbox{
+  border-bottom: 1rpx solid #f0f0f0;
+  margin: 0 20rpx;
+  padding-bottom: 30rpx;
+}
+.checkimgbox>view{
+  display: inline-block;
+  vertical-align: middle;
+  color: #353535;
+}
+.checkdesc{
+  width: 50%;
+}
+.desctitle{
+  padding-top: 50rpx;
+  min-height: 80rpx;
+  font-weight: bold;
+  letter-spacing: 2rpx;
+  font-size: 30rpx;
+}
+.descprice{
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+  color: #fa5a25;
+}
+.closebtn icon{
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+  font-size: 50rpx;
+  color: #ababab;
+}
+.checkimg{
+  margin: 40rpx 30rpx 0;
+  border-radius: 16rpx;
+  overflow: hidden;
+  height: 200rpx;
+  width: 200rpx;
+}
+.checkimg image{
+  width: 100%;
+  height: 100%;
+}
+.checkcount{
+  margin: 20rpx;
+  padding-top: 10rpx;
+  font-size: 34rpx;
+  overflow: hidden;
+}
+.changecount{
+  float: right;
+  width: 200rpx;
+}
+.checkcount>view:nth-child(1){
+  float: left;
+}
+.changecount view{
+  text-align: center;
+  display: inline-block;
+  border: 1rpx solid #f0f0f0;
+  height: 50rpx;
+  width: 50rpx;
+  line-height: 50rpx;
+  vertical-align: middle;
+}
+.changecount view:nth-child(n+2){
+  border-left: 0;
+}
+.decre,.add{
+  font-size: 50rpx;
+}
+.confirmbtn{
+  position: absolute;
+  bottom: 0;
+  height: 80rpx;
+  width: 100%;
+  color: #fff;
+  background-color: #fc6a21;
+  text-align: center;
+  line-height: 80rpx;
+  letter-spacing: 4rpx;
+  font-size: 40rpx;
 }

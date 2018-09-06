@@ -5,7 +5,8 @@
     "pages/me/me",
     "pages/kefu/kefu",
     "pages/case/case",
-    "pages/goods/goods"
+    "pages/goods/goods",
+    "pages/orders/orders"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -80,6 +80,7 @@
       <view class='gouwuchebtn'>
         <icon class='iconfont icon-gouwuche'></icon>
         <view>购物车</view>
+        <view class='count'>22</view>
       </view>
     </view>
     <view class='navright'>
@@ -89,6 +90,34 @@
       <view class='buynow'>
         立即购买
       </view>
+    </view>
+  </view>
+
+  <view class='checkcountbox'>
+    <view class='checkbox'>
+      <view class='checkimgbox'>
+        <view class='checkimg'>
+          <image src='/images/shangpin.png'></image>
+        </view>
+        <view class='checkdesc'>
+          <view class='desctitle'>孔家纯芝麻香油500g</view>
+          <view class='descprice'>￥22.00</view>
+          <view class='desckucun'>库存 <text>10</text> 件</view>
+        </view>
+        <view class='closebtn'>
+          <icon class='iconfont icon-guanbi'></icon>
+        </view>
+      </view>
+
+      <view class='checkcount black'>
+        <view>购买数量</view>
+        <view class='changecount'>
+          <view class='decre'>-</view>
+          <view>99</view>
+          <view class='add'>+</view>
+        </view>
+      </view>
+      <view class='confirmbtn'>确定</view>
     </view>
   </view>
 </view>
