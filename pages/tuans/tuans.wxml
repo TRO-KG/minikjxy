@@ -1,0 +1,9 @@
+<view class='container'>
+  <view class='headernavbox'>
+    <view class="nav-item {{curTab==0?'active':''}}"  data-cur="0" bindtap="swichNav">全部</view>
+    <view class="nav-item {{curTab==1?'active':''}}"  data-cur="1" bindtap="swichNav">待付款</view>
+    <view class="nav-item {{curTab==2?'active':''}}"  data-cur="2" bindtap="swichNav">待拼单</view>
+    <view class="nav-item {{curTab==3?'active':''}}"  data-cur="3" bindtap="swichNav">待发货</view>
+    <view class="nav-item {{curTab==4?'active':''}}"  data-cur="4" bindtap="swichNav">待收货</view>
+  </view>
+</view>

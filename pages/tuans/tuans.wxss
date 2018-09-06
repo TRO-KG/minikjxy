@@ -1,0 +1,16 @@
+.headernavbox{
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+}
+.nav-item{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  border-bottom: 2rpx solid #929292;
+}
+.nav-item.active{
+  color: #ff176d;
+  border-bottom: 3rpx solid #ff176d;
+}

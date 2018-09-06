@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -62,7 +62,31 @@
 				{
 					"id": -1,
 					"name": "shangpin",
-					"pathName": "pages/goods/goods"
+					"pathName": "pages/goods/goods",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "dingdan",
+					"pathName": "pages/orders/orders",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "quan",
+					"pathName": "pages/quans/quans",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tuan",
+					"pathName": "pages/tuans/tuans",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "cang",
+					"pathName": "pages/collects/collects"
 				}
 			]
 		}

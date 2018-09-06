@@ -2,7 +2,7 @@
   width: 100%;
   height: 410rpx;
 }
-.address,.actnav,.product{
+.address,.product{
   box-sizing: border-box;
   width: 100%;
   padding: 6rpx 20rpx;
@@ -22,14 +22,21 @@
   color: rgb(214, 0, 64);
 }
 .actnav{
+  padding-top: 10rpx;
+  background-color: #fff;
   margin-top: 10rpx;
-  display: flex;
-  justify-content: space-around;
   text-align: center;
   font-size: 30rpx;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.actnav icon{
-  font-size: 100rpx;
+.actnav-box{
+  display: inline-block;
+  width: 140rpx;
+}
+.actnav-box.active{
+  background-color: blue;
 }
 .product{
   width: 100%;

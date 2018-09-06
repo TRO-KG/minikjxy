@@ -1,0 +1,7 @@
+<view class='container'>
+  <view class='headernavbox'>
+    <view class="nav-item {{curTab==0?'active':''}}"  data-cur="0" bindtap="swichNav">待使用</view>
+    <view class="nav-item {{curTab==1?'active':''}}"  data-cur="1" bindtap="swichNav">已过期</view>
+    <view class="nav-item {{curTab==2?'active':''}}"  data-cur="2" bindtap="swichNav">已使用</view>
+  </view>
+</view>

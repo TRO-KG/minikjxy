@@ -6,7 +6,10 @@
     "pages/kefu/kefu",
     "pages/case/case",
     "pages/goods/goods",
-    "pages/orders/orders"
+    "pages/orders/orders",
+    "pages/quans/quans",
+    "pages/tuans/tuans",
+    "pages/collects/collects"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,1 +1,15 @@
-/* pages/orders/orders.wxss */
+.headernav{
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+.tab-item{
+  background-color: #fff;
+  display: inline-block;
+  width: 120rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.tab-item.active{color: #ffc310;position: relative;}
+.tab-item.active:after{ content: "";display: block;height: 8rpx;width: 100%;background: #ffc310;position: absolute; bottom: 0;left: 5rpx;border-radius: 16rpx;}
