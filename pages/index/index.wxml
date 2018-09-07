@@ -20,15 +20,15 @@
   </view>
 
   <view class='actnav'>
-    <view class='actnav-box'>
+    <view class='actnav-box {{curTab==0?"active":""}}' data-cur='0' bindtap="swichNav">
       <view><icon class='iconfont icon-CombinedShape'></icon></view>
-      <text>所有产品</text>
+      <text>全部产品</text>
     </view>
-    <view class='actnav-box'>
+    <view class="actnav-box {{curTab==1?'active':''}}" data-cur="1" bindtap="swichNav">
       <view><icon class='iconfont icon-rexiao'></icon></view>
       <text>热销</text>
     </view>
-    <view class='actnav-box'>
+    <view class="actnav-box {{curTab==2?'active':''}}" data-cur="2" bindtap="swichNav">
       <view><icon class='iconfont icon-youhui'></icon></view>
       <text>优惠</text>
     </view>
@@ -49,32 +49,13 @@
     </view>
     <view class='pro-list'>
 
-       <view class='pro-box' bindtap='toDetails'>
+       <view class='pro-box' wx:for="{{allGoods}}" bindtap='toDetails'>
         <view class='pro-image'>
-          <image src='/images/shangpin.png'></image>
-          <view class='desc'><text>白芝麻油</text></view>
+          <image src='{{item.imgPath}}'></image>
+          <view class='desc'><text>{{item.name}}</text></view>
         </view>
-        <view class='price'><text>￥22</text><text class='buy'>加入购物车</text></view>
+        <view class='price'><text>￥{{item.price}}</text><text class='buy'>加入购物车</text></view>
       </view>
-       <view class='pro-box'>
-        <view class='pro-image'>
-          <image src='/images/shangpin.png'></image>
-          <view class='desc'><text>白芝麻油</text></view>
-        </view>
-        <view class='price'><text>￥22</text><text class='buy'>加入购物车</text></view>
-      </view>
-      <view class='pro-box'>
-        <view class='pro-image'>
-          <image src='/images/shangpin.png'></image>
-          <view class='desc'><text>白芝麻油</text></view>
-        </view>
-        <view class='price'>
-          <text>￥22</text>
-          <text class='buy'>加入购物车</text>
-        </view>
-      </view>
-      
-
 
     </view>
   </view>

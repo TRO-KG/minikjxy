@@ -1,7 +1,6 @@
 .container{
   background-color: #fff;
-  overflow: hidden;
-  height:100%; 
+  overflow: hidden; 
 }
 .warnning view:nth-last-of-type(1){
   text-align: right;
@@ -50,4 +49,20 @@
 }
 .belief{
   margin-top: 100rpx;
+}
+.qrcode{
+  background-color: #fff;
+  margin-top: 10rpx;
+  padding-top: 30rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
+.codeimg{
+  width: 500rpx;
+  height: 500rpx;
+  margin: 0 auto;
+}
+.codeimg image{
+  height: 100%;
+  width: 100%;
 }

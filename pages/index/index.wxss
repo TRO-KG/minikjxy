@@ -22,8 +22,6 @@
   color: rgb(214, 0, 64);
 }
 .actnav{
-  padding-top: 10rpx;
-  padding-bottom: 6rpx;
   background-color: #fff;
   margin-top: 10rpx;
   text-align: center;
@@ -35,10 +33,12 @@
 .actnav-box{
   display: inline-block;
   width: 20%;
+  padding: 4rpx;
   box-sizing: border-box;
 }
 .actnav-box.active{
-  background-color: blue;
+  background-color:rgba(255, 195, 16, 0.212);
+  color: #ffc310;
 }
 .actnav-box icon{
   font-size: 80rpx;

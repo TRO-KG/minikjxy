@@ -1,4 +1,27 @@
 Page({
+  data:{
+    curTab: "0"
+  },
+  onLoad:function(options){
+    this.getHomeData();
+  },
+  swichNav:function(e){
+    var cur = e.currentTarget.dataset.cur;
+    var that = this;
+    var allGoods = '';
+    switch (cur){
+      case "0":
+        allGoods = that.data.goodsData.allGoods;
+      break;
+      case "1":
+        allGoods = that.data.goodsData.hotGoods;
+      break;
+      case "2":
+        allGoods = that.data.goodsData.huiGoods;
+      break;
+    }
+     this.setData({ curTab: cur, allGoods: allGoods });
+  },
   tokjxy: function(){
     wx.openLocation({
       latitude: 33.94985,
@@ -21,6 +44,18 @@ Page({
   toDetails: function(){
     wx.navigateTo({
       url: '/pages/goods/goods'
+    })
+  },
+  getHomeData:function(){
+    var that = this;
+    wx.request({
+      url: 'http://kjxy.applinzi.com/?act=all',
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        that.setData({ goodsData: res.data,allGoods: res.data.allGoods});
+      }
     })
   }
 })

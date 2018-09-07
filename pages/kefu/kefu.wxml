@@ -9,11 +9,11 @@
       <icon class='iconfont icon-liuyan'></icon>
       <text>留言</text>
     </button>
-    <view>
+    <!-- <view bindtap='showQRcode'>
       <icon class='iconfont icon-weixin'></icon>
       <text>微信</text>
-    </view>
-    <view>
+    </view> -->
+    <view bindtap='makeCall'>
       <icon class='iconfont icon-boda'></icon>
       <text>电话</text>
     </view>
@@ -23,3 +23,9 @@
     <view>—— 鹿邑县孔家香油</view>
   </view>
 </view>
+<view class='qrcode' hidden='{{QRcodeFlag}}' bindlongpress='addWhat'>
+    <view class='codetitle'>长按下面二维码添加商家微信</view>
+    <view class='codeimg'>
+      <image src='/images/qrcode.png'></image>
+    </view>
+  </view>
