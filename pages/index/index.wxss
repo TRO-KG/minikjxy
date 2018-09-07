@@ -23,6 +23,7 @@
 }
 .actnav{
   padding-top: 10rpx;
+  padding-bottom: 6rpx;
   background-color: #fff;
   margin-top: 10rpx;
   text-align: center;
@@ -33,10 +34,14 @@
 }
 .actnav-box{
   display: inline-block;
-  width: 140rpx;
+  width: 20%;
+  box-sizing: border-box;
 }
 .actnav-box.active{
   background-color: blue;
+}
+.actnav-box icon{
+  font-size: 80rpx;
 }
 .product{
   width: 100%;

@@ -10,11 +10,11 @@
   </view>
 
   <view class='orderbox'>
-    <view>
+    <view bindtap='toOrders' data-cur='1'>
       <icon class='iconfont icon-daifukuan'></icon>
       <view>待付款</view>
     </view>
-    <view>
+    <view bindtap='toOrders' data-cur='3'>
       <icon class='iconfont icon-daishouhuo'></icon>
       <view>待收货</view>
     </view><view>
@@ -23,24 +23,25 @@
     </view><view>
       <icon class='iconfont icon-customer-service'></icon>
       <view>售后</view>
-    </view><view>
+    </view>
+    <view bindtap='toOrders' data-llllll='1'>
       <icon class='iconfont icon-quanbudingdandingdanzhongxin'></icon>
       <view>全部订单</view>
     </view>
   </view>
 
   <view class='otherbox'>
-    <view>
+    <view bindtap='toQuan'>
       <view><icon class='iconfont icon-youhuiquan'></icon></view>
       <text>优惠券</text>
       <text>></text>
     </view>
-    <view>
+    <view bindtap='toCollects'>
       <view><icon class='shoucang iconfont icon-shoucang'></icon></view>
       <text>我的收藏</text>
       <text>></text>
     </view>
-    <view>
+    <view bindtap='toTuans'>
       <view><icon class='iconfont icon-pintuan'></icon></view>
       <text>我的拼团</text>
       <text>></text>

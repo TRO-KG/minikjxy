@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -86,7 +86,14 @@
 				{
 					"id": -1,
 					"name": "cang",
-					"pathName": "pages/collects/collects"
+					"pathName": "pages/collects/collects",
+					"query": ""
+				},
+				{
+					"id": 9,
+					"name": "collects",
+					"pathName": "pages/collects/collects",
+					"query": ""
 				}
 			]
 		}

@@ -5,17 +5,17 @@
     </view>
   </view>
   <view class='kefubox'>
-    <view>
+    <button open-type="contact">
       <icon class='iconfont icon-liuyan'></icon>
-      <text>在线留言</text>
-    </view>
+      <text>留言</text>
+    </button>
     <view>
       <icon class='iconfont icon-weixin'></icon>
-      <text>客服微信</text>
+      <text>微信</text>
     </view>
     <view>
       <icon class='iconfont icon-boda'></icon>
-      <text>拨打电话</text>
+      <text>电话</text>
     </view>
   </view>
   <view class='warnning belief'>

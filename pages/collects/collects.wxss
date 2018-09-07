@@ -1,1 +1,98 @@
-/* pages/collects/collects.wxss */
+.nav-item{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33.3333%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  color: #4e4e4e;
+}
+.nav-item.active{
+  color: #27b5be;
+}
+.nav-item.active::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4rpx;
+  background-color: #27b5be;
+}
+.collectbox{
+  margin-top: 10rpx;
+}
+.collectlist{
+  height: 200rpx;
+  background-color: #fff;
+  margin-top: 4rpx;
+}
+.collectlist>view{
+  display: inline-block;
+  overflow: hidden;
+}
+.selectbtn>view{
+  height: 40rpx;
+  width: 40rpx;
+  border-radius: 50%;
+  border: 1rpx solid #e1e1e1;
+  margin-top: 55rpx;
+  margin-left:26rpx; 
+}
+.selectbtn,.goodsimg,.goodstitle,.goodsprice{
+  height: 150rpx;
+}
+.goodsimg{
+  width: 150rpx;
+  margin-top: 25rpx;
+  margin-left: 16rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.goodsimg image{
+  height: 100%;
+  width: 100%;
+}
+.goodstitle{
+  width: 44.5%;
+  margin-left: 20rpx;
+  font-weight: bold;
+  letter-spacing: 2rpx;
+  padding-top: 20rpx;
+}
+.goodsprice{
+  color: #f00;
+  width: 15.5%;
+  position: relative;
+  overflow: hidden;
+}
+.goodsprice text{
+  position: absolute;
+  bottom: 10rpx;
+}
+.footernav{
+  background-color: #fff;
+  line-height: 100rpx;
+  height: 100rpx;
+  border-top: 1rpx solid #eae9e7;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2rpx;
+}
+.selectall{
+  text-align: left;
+  padding-left: 30rpx;
+}
+.footernav>view,.settop,.deletecol{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+}
+.settop{
+  border-left: 1rpx solid #eae9e7;
+}
+.deletecol{
+  color: #fff;
+  background-color: #ff460b;
+}

@@ -20,7 +20,17 @@
   text-align: center;
   margin-top: 40rpx;
 }
-.kefubox icon{
+.kefubox button{
+  background-color:inherit;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+.kefubox button::after{
+  border: none;
+}
+.kefubox icon,.kefubox button icon{
   box-sizing: border-box;
   padding-top: 40rpx;
   width: 150rpx;

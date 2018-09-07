@@ -1,2 +1,50 @@
-<!--pages/collects/collects.wxml-->
-<text>pages/collects/collects.wxml</text>
+<view class='container'>
+  <view class='headernav'>
+    <view class='nav-item active'>商品</view>
+    <view class='nav-item'>文章管理</view>
+    <view class='nav-item'>留言板</view>
+  </view>
+
+  <view class='collectbox'>
+    <view class='collectlist'>
+      <view class='selectbtn'>
+        <view></view>
+      </view>
+      <view class='goodsimgbox'>
+        <view class='goodsimg'>
+          <image src='/images/shangpin.png'></image>
+        </view>
+      </view>
+      <view class='goodstitle'>
+        <text>孔家纯芝麻香油500g</text>
+      </view>
+      <view class='goodsprice'>
+      <text>￥22.00</text>
+      </view>
+    </view>
+    <view class='collectlist'>
+      <view class='selectbtn'>
+        <view></view>
+      </view>
+      <view class='goodsimgbox'>
+        <view class='goodsimg'>
+          <image src='/images/shangpin.png'></image>
+        </view>
+      </view>
+      <view class='goodstitle'>
+        <text>孔家纯芝麻香油500g</text>
+      </view>
+      <view class='goodsprice'>
+      <text>￥22.00</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='footernav'>
+    <view class='selectall'>全选</view>
+    <view>
+      <view class='settop'>置顶</view>
+      <view class='deletecol'>删除</view>
+    </view>
+  </view>
+</view>

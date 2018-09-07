@@ -9,7 +9,8 @@
     "pages/orders/orders",
     "pages/quans/quans",
     "pages/tuans/tuans",
-    "pages/collects/collects"
+    "pages/collects/collects",
+    "pages/article/article"
   ],
   "window": {
     "backgroundTextStyle": "light",
