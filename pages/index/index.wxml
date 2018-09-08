@@ -32,7 +32,7 @@
       <view><icon class='iconfont icon-youhui'></icon></view>
       <text>优惠</text>
     </view>
-    <view class='actnav-box'>
+    <view class='actnav-box' bindtap='toQuali'>
       <view><icon class='iconfont icon-zizhiguanli-copy'></icon></view>
       <text>资质</text>
     </view>
@@ -45,11 +45,11 @@
   <view class='product'>
     <view class='class-title'>
       <view class='class-fu'></view>
-      <text>产品</text>
+      <text>{{proTitle}}</text>
     </view>
     <view class='pro-list'>
 
-       <view class='pro-box' wx:for="{{allGoods}}" bindtap='toDetails'>
+       <view class='pro-box' wx:for="{{allGoods}}" bindtap='toDetails' wx:key="{{item.id}}" data-goodsId='{{item.id}}'>
         <view class='pro-image'>
           <image src='{{item.imgPath}}'></image>
           <view class='desc'><text>{{item.name}}</text></view>

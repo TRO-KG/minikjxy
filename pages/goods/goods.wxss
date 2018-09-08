@@ -6,8 +6,6 @@
   color: #000;
 }
 .headerbox{
-  display: flex;
-  justify-content: space-around;
   height: 80rpx;
   line-height: 80rpx;
   text-align: center;
@@ -16,18 +14,19 @@
   width: 100%;
   font-size: 30rpx;
 }
-.headerbox text,.headerbox icon{
+.headerbox>view{
   display: inline-block;
-  vertical-align: middle;
+  width: 33.333%;
+  font-size: 34rpx;
+}
+.active{
+  color: #f68e88;
 }
 .headerbox icon{
   font-size: 34rpx;
 }
-.headerbox view:nth-of-type(1) icon{
-  font-size: 45rpx;
-}
 .headerbox text{
-  margin-left: 6rpx;
+  margin-left: 4rpx;
 }
 .goodsbox{
  background-color: #fff;

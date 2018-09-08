@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -60,10 +60,10 @@
 					"query": ""
 				},
 				{
-					"id": -1,
+					"id": 4,
 					"name": "shangpin",
 					"pathName": "pages/goods/goods",
-					"query": ""
+					"query": "goodsId=2"
 				},
 				{
 					"id": -1,

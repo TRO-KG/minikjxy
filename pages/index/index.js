@@ -1,6 +1,7 @@
 Page({
   data:{
-    curTab: "0"
+    curTab: "0",
+    proTitle: "全部产品"
   },
   onLoad:function(options){
     this.getHomeData();
@@ -9,18 +10,22 @@ Page({
     var cur = e.currentTarget.dataset.cur;
     var that = this;
     var allGoods = '';
+    var proTitle = '';
     switch (cur){
       case "0":
         allGoods = that.data.goodsData.allGoods;
+        proTitle = "全部产品";
       break;
       case "1":
         allGoods = that.data.goodsData.hotGoods;
+        proTitle = "热销";        
       break;
       case "2":
         allGoods = that.data.goodsData.huiGoods;
+        proTitle = "优惠";
       break;
     }
-     this.setData({ curTab: cur, allGoods: allGoods });
+    this.setData({ curTab: cur, allGoods: allGoods, proTitle: proTitle });
   },
   tokjxy: function(){
     wx.openLocation({
@@ -41,9 +46,15 @@ Page({
       url: '/pages/case/case'
     })
   },
-  toDetails: function(){
+  toDetails: function(e){
+    var goodsId = e.currentTarget.dataset.goodsid;
     wx.navigateTo({
-      url: '/pages/goods/goods'
+      url: '/pages/goods/goods?goodsId=' + goodsId
+    })
+  },
+  toQuali:function(){
+    wx.navigateTo({
+      url: '/pages/quali/quali'
     })
   },
   getHomeData:function(){

@@ -1,14 +1,14 @@
 <view class='container'>
   <view class='headerbox black'>
-    <view>
-      <icon class='iconfont icon-baobeiliebiao'></icon>
+    <view class='{{currentTab=="0"?"active":""}}' data-cur='0' bindtap='scrollTab'>
+      <icon class='iconfont icon-baobei'></icon>
       <text>宝贝</text>
     </view>
-    <view>
+    <view class='{{currentTab=="1"?"active":""}}' data-cur='1' bindtap='scrollTab'>
       <icon class='iconfont icon-pingjia'></icon>
       <text>评价</text>
     </view>
-    <view>
+    <view class='{{currentTab=="2"?"active":""}}' data-cur='2' bindtap='scrollTab'>
       <icon class='iconfont icon-xiangqing'></icon>
       <text>详情</text>
     </view>
@@ -69,15 +69,15 @@
 
   <view class='footernav'>
     <view class='navleft'>
-      <view class='homebtn'>
+      <view class='homebtn' bindtap='toHome'>
         <icon class='iconfont icon-dianpu'></icon>
         <view>首页</view>
       </view>
-      <view class='kefubtn'>
+      <view class='kefubtn' bindtap='toKF'>
         <icon class='iconfont icon-kefu'></icon>
         <view>客服</view>
       </view>
-      <view class='gouwuchebtn'>
+      <view class='gouwuchebtn' bindtap='toShoppingCar'>
         <icon class='iconfont icon-gouwuche'></icon>
         <view>购物车</view>
         <view class='count'>22</view>

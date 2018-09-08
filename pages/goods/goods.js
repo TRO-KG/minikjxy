@@ -1,66 +1,31 @@
-// pages/goods/goods.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-  
+  data:{
+    currentTab:"0"
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
-  
+    this.getGoodsDetails(options.goodsId)
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  getGoodsDetails:function(goodsId){
+    console.log(goodsId);
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+  scrollTab:function(e){
+    console.log(e);
+    var cur = e.currentTarget.dataset.cur;
+    this.setData({ currentTab:cur});
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
+  toShoppingCar:function(){
+    wx.switchTab({
+      url: '/pages/shoppingcar/shoppingcar'
+    }) 
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
+  toKF:function(){
+    wx.switchTab({
+      url: '/pages/kefu/kefu'
+    }) 
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  toHome:function(){
+    wx.switchTab({
+      url: '/pages/index/index'
+    }) 
   }
 })

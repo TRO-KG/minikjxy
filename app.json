@@ -10,7 +10,8 @@
     "pages/quans/quans",
     "pages/tuans/tuans",
     "pages/collects/collects",
-    "pages/article/article"
+    "pages/article/article",
+    "pages/quali/quali"
   ],
   "window": {
     "backgroundTextStyle": "light",
