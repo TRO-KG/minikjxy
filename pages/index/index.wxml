@@ -59,4 +59,23 @@
 
     </view>
   </view>
+
+  <view class='footernav'>
+    <view>
+      <icon class='iconfont icon-home2'></icon>
+      <view>首页</view>
+    </view>
+    <view bindtap='toShoppingCar'>
+      <icon class='iconfont icon-gouwuche1'></icon>
+      <view>购物车</view>
+    </view>
+    <view bindtap='toMe'>
+      <icon class='iconfont icon-home1'></icon>
+      <view>我的</view>
+    </view>
+    <view bindtap='toKeFu'>
+      <icon class='iconfont icon-kefu2'></icon>
+      <view>客服</view>
+    </view>
+  </view>
 </view>

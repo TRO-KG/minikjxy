@@ -2,15 +2,14 @@ page{
   min-height: 100%;
   font-size: 28rpx;
   background-color: #eae9e7;
-  font: ""
 }
 @font-face {
   font-family: 'iconfont';  /* project id 816111 */
-  src: url('//at.alicdn.com/t/font_816111_zu9fpomkq1f.eot');
-  src: url('//at.alicdn.com/t/font_816111_zu9fpomkq1f.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_816111_zu9fpomkq1f.woff') format('woff'),
-  url('//at.alicdn.com/t/font_816111_zu9fpomkq1f.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_816111_zu9fpomkq1f.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_816111_ii2tlh0rd0b.eot');
+  src: url('//at.alicdn.com/t/font_816111_ii2tlh0rd0b.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_816111_ii2tlh0rd0b.woff') format('woff'),
+  url('//at.alicdn.com/t/font_816111_ii2tlh0rd0b.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_816111_ii2tlh0rd0b.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family:"iconfont" !important;
@@ -19,6 +18,11 @@ page{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-gouwuche1:before { content: "\e653"; }
+.icon-home1:before { content: "\e61a"; }
+.icon-home2:before { content: "\e60b"; }
+.icon-kefu2:before { content: "\e630"; }
+.icon-kefu1:before { content: "\e609"; }
 .icon-baobei:before { content: "\e605"; }
 .icon-jian:before { content: "\e636"; }
 .icon-add:before { content: "\e604"; }

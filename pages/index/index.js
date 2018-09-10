@@ -57,6 +57,21 @@ Page({
       url: '/pages/quali/quali'
     })
   },
+  toShoppingCar:function(){
+    wx.navigateTo({
+      url: '/pages/shoppingcar/shoppingcar'
+    })
+  },
+  toMe:function(){
+    wx.navigateTo({
+      url: '/pages/me/me'
+    })
+  },
+  toKeFu:function(){
+    wx.navigateTo({
+      url: '/pages/kefu/kefu'
+    })
+  },
   getHomeData:function(){
     var that = this;
     wx.request({
