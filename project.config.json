@@ -1,101 +1,41 @@
 {
-	"description": "项目配置文件。",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": false,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.2.3",
-	"appid": "wx3b1ee401fdd06519",
-	"projectname": "minikjxy",
-	"isGameTourist": false,
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": 4,
-			"list": [
-				{
-					"id": -1,
-					"name": "购物车",
-					"pathName": "pages/shoppingcar/shoppingcar",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "me",
-					"pathName": "pages/me/me",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "kefu",
-					"pathName": "pages/kefu/kefu",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "case",
-					"pathName": "pages/case/case",
-					"query": ""
-				},
-				{
-					"id": 4,
-					"name": "shangpin",
-					"pathName": "pages/goods/goods",
-					"query": "goodsId=2"
-				},
-				{
-					"id": -1,
-					"name": "dingdan",
-					"pathName": "pages/orders/orders",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "quan",
-					"pathName": "pages/quans/quans",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "tuan",
-					"pathName": "pages/tuans/tuans",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "cang",
-					"pathName": "pages/collects/collects",
-					"query": ""
-				},
-				{
-					"id": 9,
-					"name": "collects",
-					"pathName": "pages/collects/collects",
-					"query": ""
-				}
-			]
-		}
-	}
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfnc/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true
+  },
+  "appid": "wx3b1ee401fdd06519",
+  "projectname": "test4",
+  "libVersion": "2.2.5",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide"
+        }
+      ]
+    }
+  }
 }
