@@ -5,6 +5,18 @@ Page({
   },
   onLoad:function(options){
     this.getHomeData();
+    wx.cloud.callFunction({
+      // 云函数名称
+      name: 'doactive',
+      // 传给云函数的参数
+      data: {
+        act: "getgoods"
+      },
+      success: function (res) {
+        console.log(res) // 3
+      },
+      fail: console.error
+    })
   },
   swichNav:function(e){
     var cur = e.currentTarget.dataset.cur;
@@ -74,13 +86,14 @@ Page({
   },
   getHomeData:function(){
     var that = this;
-    wx.request({
-      url: 'http://kjxy.applinzi.com/?act=all',
-      header: {
-        'content-type': 'application/json'
-      },
+    wx.cloud.init({
+      traceUser: true
+    })
+    const db = wx.cloud.database();
+    const goods = db.collection('goods');
+    goods.get({
       success: function (res) {
-        that.setData({ goodsData: res.data,allGoods: res.data.allGoods});
+        that.setData({ goodsData: res.data[0],allGoods: res.data[0].allGoods});
       }
     })
   }

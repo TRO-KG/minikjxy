@@ -48,15 +48,17 @@
       <text>{{proTitle}}</text>
     </view>
     <view class='pro-list'>
-
        <view class='pro-box' wx:for="{{allGoods}}" bindtap='toDetails' wx:key="{{item.id}}" data-goodsId='{{item.id}}'>
         <view class='pro-image'>
           <image src='{{item.imgPath}}'></image>
-          <view class='desc'><text>{{item.name}}</text></view>
         </view>
-        <view class='price'><text>￥{{item.price}}</text><text class='buy'>加入购物车</text></view>
+        <view class='desc'>
+          <text>{{item.name}}</text>
+        </view>
+        <view class='pricebox'>
+          <view class='price'>￥{{item.price}}</view>
+        </view>
       </view>
-
     </view>
   </view>
 
